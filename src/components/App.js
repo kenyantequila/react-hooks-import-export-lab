@@ -1,5 +1,8 @@
 import React from "react";
+import About from './About';
 
+import Home from './Home.js';
+import NavBar from './NavBar.js';
 function App() {
   return (
     <div>
@@ -8,6 +11,7 @@ function App() {
       <About />
     </div>
   );
+
 }
 
 export default App;
